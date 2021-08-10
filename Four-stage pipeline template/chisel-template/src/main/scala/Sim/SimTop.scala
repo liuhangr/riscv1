@@ -1,10 +1,11 @@
-package core
+package Sim
 
 import chisel3._
 import chisel3.util._
-// import core._
 import difftest._
 import Chisel.unless
+import Core.TOP.Top
+
 
 class SimTopIO extends Bundle {
   val logCtrl = new LogCtrlIO
